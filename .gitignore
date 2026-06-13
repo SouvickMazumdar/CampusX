@@ -1,4 +1,5 @@
 *.pkl
 *.joblib
 *.keras
-*`.pth
+*.pth
+*.csv
