@@ -13,8 +13,8 @@ class TimerMiddleware(BaseHTTPMiddleware):
         print(f'Request: {request.url.path} processed in {duration:.5f} seconds' )
         return response
 
-app.add_middleware(TimerMiddleware)
 
+app.add_middleware(TimerMiddleware)
 @app.get('/hello')
 async def hello():
     for _ in range(10**7):
