@@ -11,4 +11,5 @@ app.add_middleware(
     allow_headers=['*']
 )
 
+# it channels or filter which addresses should be allowed or not\
 
